@@ -42,6 +42,14 @@
 * use -- to pass arbitrary cmdnames to `_comp_load` ([3c1d9bc](https://github.com/scop/bash-completion/commit/3c1d9bc3f5432dee7de0935e8a4b6bf66c2fad77))
 * use `pathcmd=$(type -P -- "$1")` for arbitrary cmds ([8795ca9](https://github.com/scop/bash-completion/commit/8795ca99f3eb147e26d49f06e535f0ce64b4d162))
 
+## [2.15.0](https://github.com/scop/bash-completion/compare/2.14.0...2.15.0) (2024-05-30)
+
+
+### Features
+
+* **python,pyvenv:** versioned 3.13 executable support ([3039122](https://github.com/scop/bash-completion/commit/3039122fecf228e96174d23dc7a5dafa6bff2002))
+* **set:** more featureful completion ([1cb3eae](https://github.com/scop/bash-completion/commit/1cb3eaee7166f81ff3f0b8e0b178ddfe0f5c230c))
+
 ## [2.13.0](https://github.com/scop/bash-completion/compare/2.12.0...2.13.0) (2024-04-03)
 
 
