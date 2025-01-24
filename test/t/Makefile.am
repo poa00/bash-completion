@@ -73,6 +73,7 @@ EXTRA_DIST = \
 	test_check_db.py \
 	test_check_perms.py \
 	test_checksec.py \
+	test_chflags.py \
 	test_chfn.py \
 	test_chgrp.py \
 	test_chkconfig.py \
@@ -177,6 +178,10 @@ EXTRA_DIST = \
 	test_flake8.py \
 	test_fmt.py \
 	test_fold.py \
+	test_fprintd_delete.py \
+	test_fprintd_enroll.py \
+	test_fprintd_list.py \
+	test_fprintd_verify.py \
 	test_freebsd_update.py \
 	test_freeciv.py \
 	test_freeciv_server.py \
@@ -368,6 +373,7 @@ EXTRA_DIST = \
 	test_mdtool.py \
 	test_medusa.py \
 	test_mencoder.py \
+	test_mfiutil.py \
 	test_mii_diag.py \
 	test_mii_tool.py \
 	test_minicom.py \
@@ -390,6 +396,7 @@ EXTRA_DIST = \
 	test_mr.py \
 	test_msgsnarf.py \
 	test_msynctool.py \
+	test_mtr.py \
 	test_mtx.py \
 	test_munin_node_configure.py \
 	test_munin_run.py \
@@ -411,6 +418,7 @@ EXTRA_DIST = \
 	test_newusers.py \
 	test_ngrep.py \
 	test_nl.py \
+	test_nload.py \
 	test_nm.py \
 	test_nmap.py \
 	test_nmcli.py \
@@ -560,6 +568,7 @@ EXTRA_DIST = \
 	test_shar.py \
 	test_shellcheck.py \
 	test_sitecopy.py \
+	test_slabtop.py \
 	test_slackpkg.py \
 	test_slapt_get.py \
 	test_slapt_src.py \

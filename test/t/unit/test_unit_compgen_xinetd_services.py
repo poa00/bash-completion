@@ -4,7 +4,7 @@ from conftest import assert_bash_exec
 
 
 @pytest.mark.bashcomp(cmd=None, ignore_env=r"^\+COMPREPLY=")
-class TestUnitXinetdServices:
+class TestUnitCompgenXinetdServices:
     def test_direct(self, bash):
         assert_bash_exec(bash, "_comp_compgen_xinetd_services >/dev/null")
 
@@ -17,7 +17,7 @@ class TestUnitXinetdServices:
     def test_basic(self, bash):
         output = assert_bash_exec(
             bash,
-            "foo() { local _comp__test_xinetd_dir=$PWD/shared/bin; unset -v COMPREPLY; "
+            "foo() { local _comp__test_xinetd_dir=$PWD/_comp_compgen_xinetd_services/xinetd.d; unset -v COMPREPLY; "
             '_comp_compgen_xinetd_services; printf "%s\\n" "${COMPREPLY[@]}"; }; foo; unset -f foo',
             want_output=True,
         )

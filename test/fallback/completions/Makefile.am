@@ -1,9 +1,12 @@
 EXTRA_DIST = \
+	argc \
 	adb \
 	cal \
 	cargo \
 	chfn \
 	chsh \
+	coder \
+	delta \
 	dmesg \
 	eject \
 	flamegraph \
@@ -13,16 +16,21 @@ EXTRA_DIST = \
 	gsctl \
 	hexdump \
 	hwclock \
+	insmod \
 	ionice \
+	jj \
 	jungle \
 	keyring \
 	kontena \
 	look \
 	mdbook \
 	mock \
+	modinfo \
 	modules \
+	modprobe \
 	mount \
 	mount.linux \
+	mtr \
 	newgrp \
 	nmcli \
 	nox \
@@ -32,21 +40,28 @@ EXTRA_DIST = \
 	renice \
 	repomanage \
 	reptyr \
+	rmmod \
 	rfkill \
 	rtcwake \
 	ruff \
 	runuser \
 	rustup \
 	slackpkg \
+	sops \
+	stern \
+	stripe \
 	su \
 	svn \
 	svnadmin \
 	svnlook \
+	task \
 	tokio-console \
 	udevadm \
 	umount \
 	umount.linux \
+	uvx \
 	vault \
+	wasmer \
 	write \
 	xm \
 	yq \
